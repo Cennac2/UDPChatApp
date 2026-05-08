@@ -26,3 +26,4 @@ make client
 ```
 ### Note
 The code will be compiled inside the build folder of the project directory. This only works for Windows 10/11! (Only tested in Windows 10)
+and yes this sends raw text over the network, what a great app!
