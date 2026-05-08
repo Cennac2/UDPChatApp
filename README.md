@@ -19,14 +19,10 @@ client.exe -ip 127.0.0.1 -port 4218 -name cennac
 ```
 
 ## Build
-### Make
+### Make + GNU GCC Compiler
 ```bash
-make
-```
-### GNU C++ Compiler (g++)
-```bash
-build src/client/client.cpp -o build/client.exe -lws2_32
-build src/server/server.cpp -o build/server.exe -lws2_32
+make server
+make client
 ```
 ### Note
 The code will be compiled inside the build folder of the project directory. This only works for Windows 10/11! (Only tested in Windows 10)
